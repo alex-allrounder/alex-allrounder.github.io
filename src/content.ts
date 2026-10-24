@@ -12,7 +12,7 @@ export const person = {
 }
 
 export const links = {
-  github: 'https://github.com/Alex-fallen',
+  github: 'https://github.com/alex-allrounder',
   linkedin: 'https://www.linkedin.com/in/fx-prince-joshi',
   email: `mailto:${person.email}?subject=${encodeURIComponent('Hello from your portfolio')}`,
 }

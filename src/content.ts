@@ -81,12 +81,12 @@ export const projects: Project[] = [
     link: 'Internal company project · public link to follow',
     shots: [
       {
-        src: '/work/lira-analytics.webp',
+        src: `${import.meta.env.BASE_URL}work/lira-analytics.webp`,
         alt: 'Lira analytics dashboard with a bar chart of monthly queries and bubbles for repeated question clusters',
         caption: 'Usage analytics and repeated-question clusters',
       },
       {
-        src: '/work/lira-roleplay.webp',
+        src: `${import.meta.env.BASE_URL}work/lira-roleplay.webp`,
         alt: 'Lira role-play practice start screen asking the user to choose courses',
         caption: 'Role-play practice built on course content',
       },
@@ -102,12 +102,12 @@ export const projects: Project[] = [
     link: 'Internal company project · public link to follow',
     shots: [
       {
-        src: '/work/sop-dashboard.webp',
+        src: `${import.meta.env.BASE_URL}work/sop-dashboard.webp`,
         alt: 'SOP dashboard listing procedures with created date, author, draft status and processing state',
         caption: 'SOP dashboard with drafts, status and processing',
       },
       {
-        src: '/work/sop-mapping.webp',
+        src: `${import.meta.env.BASE_URL}work/sop-mapping.webp`,
         alt: 'Three-step SOP builder showing SOP details and mapping a PDF source file to a section',
         caption: 'Mapping source documents to SOP sections',
       },
